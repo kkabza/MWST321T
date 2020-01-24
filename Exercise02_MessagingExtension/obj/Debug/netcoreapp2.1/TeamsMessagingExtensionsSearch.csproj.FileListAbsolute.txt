@@ -1,0 +1,16 @@
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\TeamsAppManifest\manifest.json
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.deps.json
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.runtimeconfig.json
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.runtimeconfig.dev.json
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.dll
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\bin\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.pdb
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.csprojAssemblyReference.cache
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.RazorAssemblyInfo.cache
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.RazorAssemblyInfo.cs
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.AssemblyInfoInputs.cache
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.AssemblyInfo.cs
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.RazorTargetAssemblyInfo.cache
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.dll
+C:\Users\kkabza\Downloads\BotBuilder-Samples-master\BotBuilder-Samples-master\samples\csharp_dotnetcore\50.teams-messaging-extensions-search\obj\Debug\netcoreapp2.1\TeamsMessagingExtensionsSearch.pdb
