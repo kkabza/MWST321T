@@ -6,7 +6,7 @@ import NavBar from './NavBar';
 import ErrorMessage from './ErrorMessage';
 import Welcome from './Welcome';
 import config from './Config';
-import { getUserDetails } from './GraphService';
+import { getUserDetails ,getPresence} from './GraphService';
 import 'bootstrap/dist/css/bootstrap.css';
 import Calendar from './Calendar';
 
@@ -30,6 +30,7 @@ class App extends Component {
     var user = this.userAgentApplication.getAccount();
 
     this.state = {
+      presence: null,
       isAuthenticated: (user !== null),
       user: {},
       error: null
@@ -38,6 +39,7 @@ class App extends Component {
     if (user) {
       // Enhance user object with data from Graph
       this.getUserProfile();
+      console.log(user) ;
     }
   }
 
@@ -61,6 +63,7 @@ class App extends Component {
                 <Welcome {...props}
                   isAuthenticated={this.state.isAuthenticated}
                   user={this.state.user}
+                  presence={this.state.presence}
                   authButtonMethod={this.login.bind(this)} />
               } />
             <Route exact path="/calendar"
@@ -130,7 +133,9 @@ class App extends Component {
       if (accessToken) {
         // Get the user's profile from Graph
         var user = await getUserDetails(accessToken);
+        var presence = await getPresence(accessToken);
         this.setState({
+          presence,
           isAuthenticated: true,
           user: {
             displayName: user.displayName,
@@ -138,6 +143,11 @@ class App extends Component {
           },
           error: null
         });
+
+        
+
+        console.log(presence);
+
       }
     }
     catch(err) {

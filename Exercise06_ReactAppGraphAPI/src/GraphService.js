@@ -5,6 +5,8 @@ function getAuthenticatedClient(accessToken) {
   const client = graph.Client.init({
     // Use the provided access token to authenticate
     // requests
+    baseUrl:"https://graph.microsoft.com",
+    defaultVersion: "beta",
     authProvider: (done) => {
       done(null, accessToken.accessToken);
     }
@@ -31,3 +33,15 @@ export async function getEvents(accessToken) {
 
   return events;
 }
+
+export async function getPresence(accessToken){
+  const client = getAuthenticatedClient(accessToken);
+  console.log(client);
+  
+  const presence = await client
+  .api('/me/presence')  
+  .get();
+
+  return presence;
+}
+

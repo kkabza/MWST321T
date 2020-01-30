@@ -3,6 +3,7 @@ module.exports = {
   redirectUri: 'http://localhost:3000',
   scopes: [
     'user.read',
+    'presence.read.all',
     'calendars.read'
   ]
 };

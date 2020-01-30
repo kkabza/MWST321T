@@ -5,11 +5,17 @@ import {
 
 function WelcomeContent(props) {
   // If authenticated, greet the user
+
   if (props.isAuthenticated) {
     return (
       <div>
         <h4>Welcome {props.user.displayName}!</h4>
-        <p>Use the navigation bar at the top of the page to get started.</p>
+        {props.presence !== null &&
+        <div>
+        <p><b>Presence: </b>{props.presence.availability}</p>
+        <p><b>Activity: </b>{props.presence.activity}</p>
+        </div>
+      }
       </div>
     );
   }
@@ -20,6 +26,7 @@ function WelcomeContent(props) {
 
 export default class Welcome extends React.Component {
   render() {
+    
     return (
       <Jumbotron>
         <h1>React Graph Tutorial</h1>
@@ -27,6 +34,7 @@ export default class Welcome extends React.Component {
         <WelcomeContent
           isAuthenticated={this.props.isAuthenticated}
           user={this.props.user}
+          presence={this.props.presence}
           authButtonMethod={this.props.authButtonMethod} />
       </Jumbotron>
     );
