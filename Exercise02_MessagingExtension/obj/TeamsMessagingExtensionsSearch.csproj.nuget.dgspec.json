@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kkabza\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\samples\\csharp_dotnetcore\\50.teams-messaging-extensions-search\\TeamsMessagingExtensionsSearch.csproj": {}
+    "C:\\MWST321T\\Exercise02_MessagingExtension\\TeamsMessagingExtensionsSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kkabza\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\samples\\csharp_dotnetcore\\50.teams-messaging-extensions-search\\TeamsMessagingExtensionsSearch.csproj": {
+    "C:\\MWST321T\\Exercise02_MessagingExtension\\TeamsMessagingExtensionsSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kkabza\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\samples\\csharp_dotnetcore\\50.teams-messaging-extensions-search\\TeamsMessagingExtensionsSearch.csproj",
+        "projectUniqueName": "C:\\MWST321T\\Exercise02_MessagingExtension\\TeamsMessagingExtensionsSearch.csproj",
         "projectName": "TeamsMessagingExtensionsSearch",
-        "projectPath": "C:\\Users\\kkabza\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\samples\\csharp_dotnetcore\\50.teams-messaging-extensions-search\\TeamsMessagingExtensionsSearch.csproj",
+        "projectPath": "C:\\MWST321T\\Exercise02_MessagingExtension\\TeamsMessagingExtensionsSearch.csproj",
         "packagesPath": "C:\\Users\\kkabza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kkabza\\Downloads\\BotBuilder-Samples-master\\BotBuilder-Samples-master\\samples\\csharp_dotnetcore\\50.teams-messaging-extensions-search\\obj\\",
+        "outputPath": "C:\\MWST321T\\Exercise02_MessagingExtension\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
